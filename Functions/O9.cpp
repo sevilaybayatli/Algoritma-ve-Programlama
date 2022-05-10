@@ -1,0 +1,12 @@
+//This example returns the sum of a function with two parameters:
+#include <iostream>
+using namespace std;
+
+int myFunction(int x, int y) {
+  return x + y;
+}
+
+int main() {
+  cout << myFunction(5, 3);
+  return 0;
+}
